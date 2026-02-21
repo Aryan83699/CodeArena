@@ -12,6 +12,7 @@ import CompanyDashboard from './pages/CompanyDashboard';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import SuperadminDashboard from './pages/SuperadminDashboard';
+import AiRoadmapPage from './pages/AiRoadmapPage';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
               <Route path="/leaderboard" element={<LeaderboardPage />} />
               <Route path="/auth" element={<AuthPage />} />
               <Route path="/onboarding" element={<OnboardingPage />} />
+              <Route path="/ai-roadmap" element={<AiRoadmapPage />} />
             </Routes>
           </main>
           <Footer />
